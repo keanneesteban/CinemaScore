@@ -1,15 +1,13 @@
-* {
-    box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 body {
     background: #131720;
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-h3 {
-    color: white;
-}
+h3 { color: white; }
 
 .top-nav {
     overflow: hidden;
@@ -28,9 +26,7 @@ h3 {
     text-transform: uppercase;
 }
 
-.top-nav .search-container {
-    float: right;
-}
+.top-nav .search-container { float: right; }
 
 form {
     background-color: #151F30;
@@ -51,8 +47,27 @@ input {
 }
 
 .thumbnail {
-    height: 350px;
-    width: 300px;
+    height: auto;
+    width: 100px;
+    border-radius: 19px;   
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.card {
     border-radius: 19px;
-    
+    padding: 15px;
+    text-align: center;
+    background: #151F30;    
+    height: auto;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 19px;
 }
